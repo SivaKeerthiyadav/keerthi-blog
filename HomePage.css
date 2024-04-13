@@ -1,0 +1,61 @@
+.home-page-container {
+    width: calc(50% - 10px); 
+    height: 100vh;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-right: 5px; 
+    background-image: url('../img/hbg.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    border: 2px solid transparent; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+.home-page-container:hover {
+    cursor: pointer;
+    transform: scale(1.0); 
+    border-color: #007bff; 
+}
+
+
+
+
+.header-info {
+    margin-top: 10px; 
+}
+
+
+.home-page-container .header img {
+    
+    width: 300px;
+    height: 200px; 
+    height: auto; 
+    border-radius: 50%; 
+}
+
+
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Align image horizontally to center */
+    align-items: center; /* Align image vertically to center */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

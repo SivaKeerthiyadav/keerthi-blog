@@ -1,0 +1,55 @@
+.container {
+    width: 50%;
+    height: 100vh;
+    display: inline-block;
+    background-image: url('../img/cb.jpg');
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #676e77;
+    box-sizing: border-box;
+}
+
+.input-group textarea {
+    height: 150px;
+}
+
+.button-container {
+    text-align: center; /* Align text to the center */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #5391dd;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+h2 {
+    text-align: center; /* Align the h2 element to the center */
+}
+.error-message,
+.success-message {
+    color: red;
+    margin-top: 5px;
+}
+
+.success-message {
+    color: green;
+}
